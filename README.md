@@ -9,7 +9,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
-Go to http://localhost:8000/docs for interactive API docs.
+Go to http://localhost:3888/docs for interactive API docs.
 
 ## Endpoints
 
