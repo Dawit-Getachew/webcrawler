@@ -12,6 +12,10 @@ if running locally use http://localhost:3888/docs for interactive API docs.
 
 if running deployed version use https://webcrawler.coolify.zareinnovations.xyz/docs for interactive API docs.
 
+Here is the deployed version https://webcrawler.coolify.zareinnovations.xyz/docs.
+
+![image](image.png)
+
 ## Endpoints
 
 | Method | Endpoint | What it does |
