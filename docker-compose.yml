@@ -1,0 +1,9 @@
+services:
+  web-scraper:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - REQUEST_DELAY=1.5
+      - MAX_CONCURRENCY=3
+    restart: unless-stopped

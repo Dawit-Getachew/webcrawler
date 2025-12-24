@@ -1,0 +1,43 @@
+{
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+  "request_timeout": 30,
+  "request_delay": 1.5,
+  "max_concurrency": 3,
+  "confidence_threshold": 0.5,
+  "min_word_count": 100,
+  "skip_patterns": [
+    "/privacy",
+    "/terms",
+    "/legal",
+    "/login",
+    "/register",
+    "/signup",
+    "/search",
+    "/tag/",
+    "/category/",
+    "/archive/",
+    "/feed",
+    "/rss",
+    "/author/",
+    "/cart",
+    "/admin",
+    "/contact",
+    "/about-us",
+    "/faq"
+  ],
+  "skip_extensions": [
+    ".pdf",
+    ".jpg",
+    ".jpeg",
+    ".png",
+    ".gif",
+    ".svg",
+    ".css",
+    ".js",
+    ".zip",
+    ".mp3",
+    ".mp4",
+    ".doc",
+    ".docx"
+  ]
+}
