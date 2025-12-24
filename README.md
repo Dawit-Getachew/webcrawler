@@ -24,7 +24,7 @@ Here is the deployed version https://webcrawler.coolify.zareinnovations.xyz/docs
 | POST | `/crawl` | Start site crawl |
 | GET | `/crawl/jobs` | List all crawl jobs |
 | GET | `/crawl/{id}` | Get crawl results |
-| POST | `/self_test` | check the if the text extraction works for specific website|
+| POST | `/self_test` | Check if the text extraction works for specific website|
 
 ## Examples
 
