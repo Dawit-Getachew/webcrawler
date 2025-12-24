@@ -8,8 +8,9 @@ Extracts articles from web pages and crawls sites for content.
 pip install -r requirements.txt
 python app.py
 ```
+if running locally use http://localhost:3888/docs for interactive API docs.
 
-Go to http://localhost:3888/docs for interactive API docs.
+if running deployed version use https://webcrawler.coolify.zareinnovations.xyz/docs for interactive API docs.
 
 ## Endpoints
 
@@ -26,13 +27,13 @@ Go to http://localhost:3888/docs for interactive API docs.
 **Extract article:**
 ```json
 POST /extract
-{"url": "https://example.com/article"}
+{"url": "https://martinfowler.com/articles/design-token-based-ui-architecture.html"}
 ```
 
 **Crawl site:**
 ```json
 POST /crawl
-{"start_url": "https://example.com", "max_pages": 20}
+{"start_url": "https://martinfowler.com", "max_pages": 20}
 ```
 
 ## Docker
