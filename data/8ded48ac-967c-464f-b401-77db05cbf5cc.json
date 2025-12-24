@@ -1,0 +1,84 @@
+{
+  "job_id": "8ded48ac-967c-464f-b401-77db05cbf5cc",
+  "state": "done",
+  "progress": {
+    "queued": 332,
+    "fetched": 10,
+    "extracted": 7,
+    "skipped": 10,
+    "failed": 0
+  },
+  "results": [
+    {
+      "url": "https://martinfowler.com",
+      "status": 200,
+      "is_article": true,
+      "confidence": 0.85,
+      "title": "martinfowler.com",
+      "word_count": 842,
+      "content_html": "<html><body><div><section>\n<h1>A website on building software effectively</h1>\n<p>If there's a theme that runs through my work and writing on this site,\n        it's the interplay between the shift towards agile thinking and the\n        technical patterns and practices that make agile software development\n        practical. While specifics of technology change rapidly in our\n        profession, fundamental practices and patterns are more stable. So\n        writing about these allows me to have articles on this site that are\n        several years old but still as relevant as when they were written.</p>\n<p>As software becomes more critical to modern business, software needs to\n        be able to react quickly to changes, allowing new features to be\n        conceived, developed and put into production rapidly. The techniques of\n        <a href=\"/agile.html\">agile software development</a> began in the 1990s\n        and became steadily more popular in the last decade. They focus on a\n        flexible approach to planning, which allows software products to change\n        direction as the users' needs change and as product managers learn more\n        about how to make their users effective. While widely accepted now, agile\n        approaches are not easy, requiring significant skills for a team, but more\n        importantly a culture of open collaboration both within the team and with a\n        team's partners.</p>\n<p>This need to respond fluently to changes has an important impact upon\n        the <a href=\"/architecture\">architecture</a> of a software system. The\n        software needs to be built in such a way that it is able to adapt to\n        unexpected changes in features. One of the most important ways to do this\n        is to write clear code, making it easy to understand what the program\n        is supposed to do. This code should be divided into modules which allow\n        developers to understand only the parts of the system they need to make a\n        change. This production code should be supported with automated tests that\n        can detect any errors made when making a change while providing examples\n        of how internal structures are used. Large and complex software efforts\n        may find the <a href=\"/microservices\">microservices</a> architectural style\n        helps teams deploy software with less entangling dependencies.</p>\n<p>Creating software that has a good architecture isn't something that can\n        be done first time. Like good prose, it needs regular revisions as\n        programmers learn more about what the product needs to do and how best to\n        design the product to achieve its goals. <a href=\"https://refactoring.com\">Refactoring</a> is an essential technique to allow a\n        program to be changed safely. It consists of making small changes that\n        don't alter the observable behavior of the software. By combining lots of\n        small changes, developers can revise the software's structure supporting\n        significant modifications that weren't planned when the system was first\n        conceived.</p>\n<p>Software that runs only on a developer's machine isn't providing\n        value to the customers of the software. Traditionally releasing software\n        has been a long and complicated process, one that hinders the need to\n        evolve software quickly. <a href=\"/delivery.html\">Continuous Delivery</a> uses\n        automation and collaborative workflows to remove this bottleneck,\n        allowing teams to release software as often as the customers demand. \n        For Continuous Delivery to be possible, we need to build in a solid\n        foundation of <a href=\"/testing\">Testing</a>, with a range of\n        automated tests that can give us confidence that our changes haven't\n        introduced any bugs. This leads us to integrate testing into\n        programming, which can act to improve our architecture.</p>\n</section>\n<section>\n<section>\n<h2>Photostream</h2>\n<p><a href=\"/photos/131.html\"><img src=\"/photos/131.jpg\"/></a></p>\n<p>San Francisco</p>\n<p></p>\n</section>\n<section>\n<h2>Data Management</h2>\n<p>There are many kinds of software out there, the kind I'm primarily\n          engaged is Enterprise Applications. One of the enduring problems we\n          need to tackle in this world is <a href=\"/data\">data management</a>. The aspects of data\n          managment I've focused on here are how to migrate data stores as their\n          applications respond to changing needs, coping with different contexts\n          across a large enterprise, the role of NoSQL databases, and the\n          broader issues of coping with data that is both Big and Messy.</p>\n</section>\n<section>\n<h2>Domain-Specific Languages</h2>\n<p>A common problem in complex software systems is how to capture\n          complicated domain logic in a way that programmers can both easily\n          manipulate and also easily communicate to domain experts. <a href=\"/dsl.html\">Domain-Specific Languages</a> (DSLs) create a custom language\n          for a particular problem, either with custom parsers or by conventions\n          within a host language.</p>\n</section>\n<section>\n<h2>Books</h2>\n<p>I've written seven books on software development, including\n          Refactoring, Patterns of Enterprise Application Architecture, and UML\n          Distilled. I'm also the editor of a signature series for\n          Addison-Wesley that includes five jolt award winners.</p>\n<p><a href=\"/books\">My Books Page...</a></p>\n</section>\n<section>\n<h2>Conference Talks</h2>\n<p>I'm often asked to give talks at conferences, from which I've\n          inferred that I'm a pretty good speaker - which is ironic since I\n          really hate giving talks. You can form your own opinion of my talks by\n          watching videos of some my conference talks.</p>\n<p><a href=\"/videos.html\">My Videos Page...</a></p>\n</section>\n<section>\n<h2>Board Games</h2>\n<p>I've long been a fan of board games, I enjoy a\n           game that fully occupies my mind, clearing out all the serious\n          thoughts for a bit, while enjoying the company of good friends. Modern\n          board games saw dramatic improvement in the 1990's with the rise of\n          Eurogames, and I expect many people would be surprised if they haven't\n          tried any of this new generation. I also appear regularly on <a href=\"/bliki/HeavyCardboard.html\">Heavy Cardboard</a>.</p>\n<p><a href=\"/articles/eurogames/\">My Board Games page...</a></p>\n</section>\n</section>\n</div></body></html>",
+      "canonical_url": "https://martinfowler.com"
+    },
+    {
+      "url": "https://martinfowler.com/agile.html",
+      "status": 200,
+      "is_article": true,
+      "confidence": 0.5,
+      "title": "Agile Software Guide",
+      "word_count": 104,
+      "content_html": "<html><body><div><div>\n<p><img src=\"/img/video/xconf-hands-up.png\"/></p>\n<p>\n</p><p>It's been over a decade since we wrote the Manifesto for\n      Agile Software Development, and the agile meme has been more\n      successful than we ever could have hoped for. But like any\n      success, there is the regular danger of Semantic Diffusion. I\n      try to combat this disease by describing the essence of agile\n      software development: preferring adaptive planning to predictive\n      planning and favoring people over process.</p>\n<p>I then describe the Agile Fluency model, which I find an\n      effective way to think about how agile teams become proficient,\n      and the steps you typically go through as you become a more\n      skillful user of agile techniques.</p>\n</div>\n</div></body></html>",
+      "canonical_url": "https://martinfowler.com/agile.html"
+    },
+    {
+      "url": "https://martinfowler.com/architecture",
+      "status": 200,
+      "is_article": true,
+      "confidence": 0.5,
+      "title": "Software Architecture Guide",
+      "word_count": 126,
+      "content_html": "<html><body><div><div>\n<p><img src=\"\"/></p>\n<p>Graphical User Interfaces provide a rich interaction between the\n  user and a software system. Such richness is complex to manage, so it's\n  important to contain that complexity with a thoughtful architecture. The Forms\n  and Controls pattern works well for systems with a simple flow, but as it\n  breaks down under the weight of greater complexity, most people turn to\n  “Model-View-Controller” (MVC). Sadly MVC is one of the most misunderstood\n  architectural patterns around, and systems using that name display a range of\n  important differences, sometimes described under names like Application Model,\n  Model-View-Presenter, Presentation Model, MVVM, and the like. The best way to\n  think of MVC is as set of principles including the separation of presentation\n  from domain logic and synchronizing presentation state through events (the\n  observer pattern).\n  </p>\n</div>\n</div></body></html>",
+      "canonical_url": "https://martinfowler.com/architecture/"
+    },
+    {
+      "url": "https://martinfowler.com/aboutMe.html",
+      "status": 200,
+      "is_article": true,
+      "confidence": 0.5,
+      "title": "About Martin Fowler",
+      "word_count": 165,
+      "content_html": "<html><body><div><section>\n<h2>Who am I?</h2>\n<p>I am <b>Martin Fowler</b>: an author, speaker… essentially a\n      loud-mouthed pundit on the topic of software development, primarily for\n      <a href=\"/bliki/EnterpriseApplication.html\">Enterprise Applications</a>. I work for <a href=\"https://thoughtworks.com\">Thoughtworks</a>, a software delivery company, where I have\n      the exceedingly inappropriate title of “Chief Scientist”. I have written\n      <a href=\"/books\">half-a-dozen books</a> on software development,\n      including <a href=\"/books/refactoring.html\">Refactoring</a>, and <a href=\"/books/eaa.html\">Patterns of Enterprise Application Architecture</a>. I write\n      for and edit the website martinfowler.com.</p>\n<p>My main interest is to understand how to design software\n      systems, to maximize how much value development teams can deliver.\n      In doing this I've looked to understand the patterns of <a href=\"/architecture\">good software\n      architecture</a>, and also the processes that support software design. I've become a\n      big fan of <a href=\"/agile.html\">agile approaches</a> and the resulting focus on\n      evolutionary software architecture. I don't come up with original ideas, but do\n      a pretty good job of recognizing and packaging the ideas of others, or as\n      Brian Foote describes me: <b>“an intellectual jackal with good taste in\n      carrion”</b>.</p>\n</section>\n</div></body></html>",
+      "canonical_url": "https://martinfowler.com/aboutMe.html"
+    },
+    {
+      "url": "https://martinfowler.com/microservices",
+      "status": 200,
+      "is_article": true,
+      "confidence": 0.5,
+      "title": "Microservices Guide",
+      "word_count": 167,
+      "content_html": "<html><body><div><div>\n<p><img src=\"https://martinfowler.com/bliki/images/circuitBreaker/card.png\"/></p>\n<p>It's common for software systems to make remote calls to software\n  running in different processes, probably on different machines\n  across a network. One of the big differences between in-memory calls\n  and remote calls is that remote calls can fail, or hang without a\n  response until some timeout limit is reached. What's worse if you\n  have many callers on a unresponsive supplier, then you can run out\n  of critical resources leading to cascading failures across multiple\n  systems. In his excellent book <a href=\"https://www.amazon.com/gp/product/0978739213/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0978739213&amp;linkCode=as2&amp;tag=martinfowlerc-20\">Release\n  It</a>, Michael Nygard popularized the Circuit Breaker pattern to\n  prevent this kind of catastrophic cascade.</p>\n<p>The basic idea behind the circuit breaker is very simple. You\n  wrap a protected function call in a circuit breaker object, which monitors for\n  failures. Once the failures reach a certain threshold, the circuit\n  breaker trips, and all further calls to the circuit breaker return\n  with an error, without the protected call being made at all. Usually\n  you'll also want some kind of monitor alert if the circuit breaker\n  trips.</p>\n</div>\n</div></body></html>",
+      "canonical_url": "https://martinfowler.com/microservices/"
+    },
+    {
+      "url": "https://martinfowler.com/testing",
+      "status": 200,
+      "is_article": true,
+      "confidence": 0.5,
+      "title": "Testing Guide",
+      "word_count": 123,
+      "content_html": "<html><body><div><div>\n<p><img src=\"\"/></p>\n<p>As my career has turned into full-time authorship, I often worry\n\tabout distancing myself from the realities of day-to-day software\n\tdevelopment. I've seen other well-known figures lose contact with\n\treality, and I fear the same fate. My greatest source of resistance\n\tto this is Thoughtworks, which acts as a regular dose of reality to\n\tkeep my feet on the ground.</p>\n<p>Thoughtworks also acts as a source of ideas from the field, and I\nenjoy writing about useful things that my colleagues have discovered\nand developed. Usually these are helpful ideas, that I hope that some\nof my readers will be able to use. My topic today isn't such a\npleasant topic. It's a problem and one that we don't have an answer\nfor.</p>\n</div>\n</div></body></html>",
+      "canonical_url": "https://martinfowler.com/testing/"
+    },
+    {
+      "url": "https://martinfowler.com/dsl.html",
+      "status": 200,
+      "is_article": true,
+      "confidence": 0.55,
+      "title": "DSL Guide",
+      "word_count": 308,
+      "content_html": "<html><body><div><section>\n<p>A Domain-Specific Language (DSL) is a computer\n      language that's targeted to a particular kind of problem, rather\n      than a general purpose language that's aimed at any kind of\n      software problem. Domain-specific languages have been talked\n      about, and used for almost as long as computing has been done.</p>\n<p>DSLs are very common in computing: examples include CSS,\n      regular expressions, make, ant, SQL, many bits of Rails,\n      expectations in JMock, graphviz's dot language, strut's\n      configuration file....</p>\n<p>An important and useful distinction I make is between internal and\n      external DSLs. <b>Internal DSLs</b> are particular ways of using a host\n      language to give the host language the feel of a particular language. This\n      approach has long been part of the tradition in Lisp, and in the last\n      decade got re-energized by the Ruby community. Although it's usually\n      easier in low-ceremony languages like that, you can do effective internal\n      DSLs in more mainstream languages like Java and C#. Internal DSLs are also\n      referred to as embedded DSLs or <a href=\"/bliki/FluentInterface.html\">fluent interfaces</a></p>\n<p><b>External DSLs</b> have their own custom syntax and you write\n      a full parser to process them. There is a strong tradition of\n      doing this in the Unix community. A variation of this is to encode the DSL\n      in a data structure representation such as XML or YAML.</p>\n<p>The most most common DSLs in the wild today are textual, but you\n      can have graphical DSLs too. Graphical DSLs requires a tool along the\n      lines of a <a href=\"/articles/languageWorkbench.html\">Language\n      Workbench</a>. Language Workbenches are less common but some\n      think they have the potential to profoundly improve the way we do\n      programming.</p>\n<p>DSLs can be implemented either by interpretation or code\n      generation. Interpretation (reading in the DSL script and executing\n      it at run time) is usually easiest, but code-generation is sometimes\n      essential. Usually the generated code is itself a high level\n      language, such as Java or C.</p>\n</section>\n</div></body></html>",
+      "canonical_url": "https://martinfowler.com/dsl.html"
+    }
+  ],
+  "errors": []
+}
